@@ -195,7 +195,7 @@ FileUploadProgress.defaultProps = {
 
       return (
         <div className='_react_fileupload_progress_content'>
-          <div style={styles.progressWrapper}>
+          <div style={styles.progressWrapper} className='_react_fileupload_progress_wrapper'>
             <div className='_react_fileupload_progress_bar' style={barStyle}></div>
           </div>
           <button className='_react_fileupload_progress_cancel' style={styles.cancelButton} onClick={cancelHandler}>
